@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{67EDC49D-E4BF-47BD-9EAE-96BACBCA7A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Test", "Algorithms.Test\Algorithms.Test.csproj", "{66C8D010-808C-4E6F-B7B8-21A5EDD25506}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alchemy", "Alchemy\Alchemy.csproj", "{A0662D7D-66BF-4E03-97C9-DEEB81D847D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alchemy.Test", "Alchemy.Test\Alchemy.Test.csproj", "{559E0E30-3EC7-4595-897B-647AF38AD957}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67EDC49D-E4BF-47BD-9EAE-96BACBCA7A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EDC49D-E4BF-47BD-9EAE-96BACBCA7A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EDC49D-E4BF-47BD-9EAE-96BACBCA7A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EDC49D-E4BF-47BD-9EAE-96BACBCA7A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C8D010-808C-4E6F-B7B8-21A5EDD25506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C8D010-808C-4E6F-B7B8-21A5EDD25506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C8D010-808C-4E6F-B7B8-21A5EDD25506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C8D010-808C-4E6F-B7B8-21A5EDD25506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0662D7D-66BF-4E03-97C9-DEEB81D847D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0662D7D-66BF-4E03-97C9-DEEB81D847D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0662D7D-66BF-4E03-97C9-DEEB81D847D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0662D7D-66BF-4E03-97C9-DEEB81D847D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{559E0E30-3EC7-4595-897B-647AF38AD957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{559E0E30-3EC7-4595-897B-647AF38AD957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{559E0E30-3EC7-4595-897B-647AF38AD957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{559E0E30-3EC7-4595-897B-647AF38AD957}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
