@@ -38,5 +38,8 @@ class Exercises
     {
         Question01 question01 = new Question01(new List<double> {1,2,3});
         Console.WriteLine("[AVERAGE]: " + question01.CalculateAverage());
+
+        Question02 question02 = new Question02();
+        Console.WriteLine(question02.CreateStaircase(2, 3));
     }
 };
