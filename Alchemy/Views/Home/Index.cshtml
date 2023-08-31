@@ -1,8 +1,15 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    
+    Robot robot = (Robot) ViewData["robot"];
 }
 
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+    <h1>@robot.Name</h1>
+    <h3>@robot.Height</h3>
+    <h3>@robot.Weight</h3>
+    <h3>@robot.Country</h3>
+    <img src="https://robohash.org/@robot.Name" />
 </div>
