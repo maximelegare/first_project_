@@ -42,6 +42,13 @@ class Exercises
         // Question02 question02 = new Question02();
         // Console.WriteLine(question02.CreateStaircase(2, 2));
 
-        Console.WriteLine(Pi.Estimate(700000000));
+        // Console.WriteLine(Pi.Estimate(700000000));
+        TicTacToe ticTacToe = new TicTacToe();
+        ticTacToe.xPlay(0, 0);
+        ticTacToe.oPlay(1, 2);
+        ticTacToe.xPlay(2, 1);
+        ticTacToe.oPlay(2, 2);
+        ticTacToe.xPlay(0, 2);
+        ticTacToe.ShowGame();
     }
 };
