@@ -15,7 +15,7 @@ public class TicTacToe
     };
 
     private string nextPlayer = Players.o.ToString();
-    public string NextPlayer => $"Next player: {nextPlayer}";
+    public string NextPlayer => nextPlayer;
 
     private enum Players
     {
@@ -74,8 +74,6 @@ public class TicTacToe
     }
 
     
-
-
     public void ShowGame()
     {
         foreach (var subArray in gameStatus.Reverse())
