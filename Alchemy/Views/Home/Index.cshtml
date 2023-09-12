@@ -1,15 +1,37 @@
 ﻿@{
-    
-    Robot robot = (Robot) ViewData["robot"];
+    List<Robot> robots = ViewData["Robots"] as List<Robot>;
 }
 
-
 <div class="text-center">
+    <div class="text-center">
+        <div class="button-container">
+            @foreach (var robot in robots)
+            {
+                <div class="text-center">
+                    <h1>@robot.Name</h1>
+                    <h3>@robot.Height</h3>
+                    <h3>@robot.Weight</h3>
+                    <h3>@robot.Country</h3>
+                    <img src="https://robohash.org/@robot.Name" />
+                </div>
+            }
+        </div>
+    </div>
+    <div id="new-robot"></div>
 
 
-    <h1>@robot.Name</h1>
-    <h3>@robot.Height</h3>
-    <h3>@robot.Weight</h3>
-    <h3>@robot.Country</h3>
-    <img src="https://robohash.org/@robot.Name" />
+    <form hx-post="/robots/create-robot" hx-ext="json-enc" hx-trigger="submit" hx-target="#new-robot"
+        hx-swap="afterbegin">
+
+        <label class="form-label">name
+            <input type=text name="name" class="form-control" placeholder="Bob Le Chef"></label><br>
+        <label class="form-label">height
+            <input type=number name="height" class="form-control" placeholder="Bob Le Chef"></label><br>
+        <label class="form-label">Weight
+            <input type=number name="weight" class="form-control" placeholder="Bob Le Chef"></label><br>
+        <label class="form-label">Country
+            <input type=text name="country" class="form-control" placeholder="Bob Le Chef"></label><br>
+
+        <input type=submit class="btn btn-primary">
+    </form>
 </div>
