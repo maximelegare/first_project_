@@ -8,7 +8,6 @@ public class CreateRobotRequest{
     public int Height { get; set; }
     public int Weight { get; set; }
     public string Country { get; set; }
-
 }
 
 public class CreateRobotResponse{
@@ -33,7 +32,7 @@ public class RobotsController : Controller{
         
     
 
-        Robot robot = new Robot(req.Name, "https://robohash.org/bob", req.Height, req.Weight, req.Country);
+
 
         return View("RobotPartial");
     }
